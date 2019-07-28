@@ -1,0 +1,15 @@
+[package]
+name = "token_interview_hw"
+version = "0.1.0"
+authors = ["francosasieta <fsasieta@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+protobuf = "~2.0-2.2"
+raft = "0.6.0-alpha"
+rand = "0.7.0"
+slog = "2.5.2"
+slog-term = "2.4.1"
+slog-async = "2.3.0"
